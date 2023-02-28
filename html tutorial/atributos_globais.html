@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo HTML</title>
+</head>
+<body>
+    <h2>Comentarios em html</h2>
+    <pre>
+        <code>
+            &lt;!-- assim se escreve comentarios em html -->
+        </code>
+    </pre>
+    <h2>Atributos globais</h2>
+    <h3>class</h3>
+    <p>As classes permitem que CSS e JavaScript selecionem 
+        e acessem elementos específicos por meio de seletores de classe.
+    </p>
+    <pre>
+        <code>
+            &lt;p class="note editorial">
+            Above point sounds a bit obvious. Remove/rewrite?
+            &lt;/p>
+        </code>
+    </pre>
+    <h3>contenteditable</h3>
+    <p>é um atributo enumerado que indica se o elemento deve ser editável pelo usuário. Nesse caso, o navegador modifica seu widget para permitir a edição.</p>
+    <pre>
+        <code>
+            &lt;p contenteditable="true">Este conteudo é editavel&lt;/p>
+        </code>
+    </pre>
+    <p contenteditable="true">Este conteudo é editavel</p>
+    <h3>data-*</h3>
+    <p>atributo de dados personalizados permitem que as informações proprietárias sejam
+        trocadas entre o HTML e sua representacao DOM por scripts
+    </p>
+    <pre>
+        <code>
+            &lt;li data-id="10784">Jason Walters, 003: Found dead in "A View to a Kill".&lt;/li>
+        </code>
+    </pre>
+    <h3>Hidden</h3>
+    <p>
+        As entradas ocultas são completamente invisíveis na página renderizada e não há como torná-las visíveis no conteúdo da página.
+    </p>
+    <pre>
+        <code>
+            &lt;input type="hidden" id="postId" name="postId" value="34657" />
+        </code>
+    </pre>
+    <h3>id</h3>
+    <p>
+        um identificador que deve ser unico em todo o documento. Sua finalidade é identificar o elemento ao
+        vincular script ou stilo
+    </p>
+    <pre>
+        <code>
+            &lt;p id="postId">exemplo de codigo com id &lt;/p>
+        </code>
+    </pre>
+    <h3>style</h3>
+    <p>O elemento HTML contém informações de estilo para um documento ou parte de um documento.</p>
+    <pre>
+        <code>
+            &lt;p style="color: blue">The style attribute can override it, though.&lt;/p>
+        </code>
+    </pre>
+    <p style="color: blue">The style attribute can override it, though.</p>
+    <h3>tabindex</h3>
+    <p>Utilizado para focalizar elementos HTML, geralmente com valor de uma chave,
+        que determina a ordem relativa da navegação, podendo ser usado a tecla TAB
+    </p>
+    <pre>
+        <code>
+            &lt;div tabindex="0">ordenação &lt;/div>
+            &lt;div tabindex="1">ordenação 1 &lt;/div>
+        </code>
+    </pre>
+    <h3>title</h3>
+    <p>O elemento HTML define o título do documento que é mostrado na barra de título de um navegador ou na guia de uma página. Ele contém apenas texto
+    </p>
+    <pre>
+        <code>
+            &lt;title>titulo da pagina&lt;/title>
+        </code>
+    </pre>
+</body>
+</html>

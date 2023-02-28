@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Tabelas</h1>
+
+    <table>
+        <caption>Pessoas por Idade</caption>
+        <thead>
+            <th>Nome</th>
+            <th>Idade</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fulano</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>ciclano</td>
+                <td>40</td>
+            </tr>          
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>2 pessoas</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Tabela complexa</h2>
+    <table>
+        <caption>Produtod produzidos por loja</caption>
+        <colgroup>
+            <col>
+            <col span="2" style="background-color:green">
+            <col span="2" style="background-color: orange;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2" scope="colgroup">Fulano</th>
+                <th colspan="2" scope="colgroup">Ciclano</th>
+            </tr>
+            <tr>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Produto1</th>
+                    <td align="center">50</td>
+                    <td align="center">30</td>
+                    <td align="center">20</td>
+                    <td align="center">20</td>                
+            </tr>
+            <tr>
+                <th scope="row">Produto2</th>
+                    <td align="center">10</td>
+                    <td align="center">10</td>
+                    <td align="center">30</td>
+                    <td align="center">25</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
