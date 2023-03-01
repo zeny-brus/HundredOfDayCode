@@ -22,14 +22,29 @@
     <meta property="og:title" content="site de amostra">
     <!--twitter-->
     <meta name="twitter:title" content="Html puro">
+    
+    <title>titulo</title>
 
-        <title>titulo</title>
+    <!--acrescentando css em tag html-->
+    <style>
+        h1 {
+            color:rgb(63, 59, 66);
+            background-color:  gray;
+            font-size: 40px;
+            margin: 40px;
+            width: 200px;
+            text-align: center;            
+        }
+    </style>
+    <!-- acrescentando por link -->
+    <link rel="stylesheet" href="css/style.css">    
     </head>
     <body>
-        <h1>Titulo h1</h1>        
-        <h6>titulo h6</h6>
+        <h1>Titulo h1</h1>
+        <!-- acrescentando css inline-->        
+        <h6 style="color: rgb(4, 28, 107)">titulo h6</h6>
 
-        <p>Apenas paragrafo</p>
+        <p class="bg-p">Apenas paragrafo</p>
         <dl> <h2>Listas</h2>
             <dt><ol>LISTAS ORDENADAS
             
@@ -116,7 +131,7 @@
             do documento HTML
             </p>
         <address>
-            <p>zeny-brus<br>
+            <p id="author-name">zeny-brus<br>
                 <strong>RS, Brazil</strong>
             </p>
         </address>
